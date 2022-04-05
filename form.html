@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Create Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
-    Testing new branch for git
+    <section id="form-container">
+        <div class="img-upload"></div>
+        <div class="form-input">
+            <form>
+                <label for="card-title">Card Title</label>
+                <input type="text" name="card-title" id="card-title">
+                
+                <label for="card-owner">Card Owner</label>
+                <input type="text" name="card-owner" id="card-owner">
+                
+                <label for="card-price">Card Price</label>
+                <input type="text" name="card-price" id="card-price">
+                
+                <label for="card-status">Status: For Sale or Not For Sale</label>
+                <input type="text" name="card-status" id="card-status"><!-- for sale, not for sale dropdown or radio -->
+            </form>
+        </div>
+    </section>
 </body>
 </html>

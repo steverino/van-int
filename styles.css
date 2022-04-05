@@ -91,3 +91,26 @@ ul {
 .active {
     background-color: cadetblue;
 }
+
+/* Form */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+#form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ .img-upload {
+     border: #000 solid thin;
+ }
+.form-input {
+    
+}
